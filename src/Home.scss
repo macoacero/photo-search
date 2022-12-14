@@ -1,0 +1,59 @@
+.home {
+  text-align: center;
+  background-image: url('./images/camera-background.png');
+  background-size: cover;
+  height: 100vh;
+  color: #ffffff;
+
+  .home-text {
+    position: absolute;
+    bottom: 0;
+    height: 212px;
+    width: 100%;
+    left: 0px;
+    background-color: rgba(55, 51, 52, 0.7);
+    border-radius: 40px 40px 0 0;
+
+    h1 {
+      font-family: "Jua";
+      font-size: 36px;
+      font-weight: 400;
+      line-height: 45px;
+      margin: 34px 0 0 0;
+    }
+
+    p {
+      font-family: "Kalam";
+      font-size: 16px;
+      font-weight: 400;
+      line-height: 26px;
+      margin: 0;
+
+    }
+
+    .search-but:not(a) {
+      display: inline-block;
+      width: 157px;
+      height: 46px;
+      border-radius: 40px;
+      background-color: #AB7E57;
+      margin-top: 20px;
+      border: 1px solid rgba(55, 51, 52, 0.7);
+      filter: blur(1px);
+    }
+
+    a {
+      position: absolute;
+      top: 128px;
+      width: 157px;
+      left: calc(100vw/2 - 78.5px);
+      font-family: "Jua";
+      font-size: 22px;
+      font-weight: 400;
+      line-height: 45px;
+      color: #ffffff;
+      text-decoration: none;
+      filter: none;
+    }
+  }
+}

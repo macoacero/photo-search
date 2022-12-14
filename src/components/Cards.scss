@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kalam:wght@400;700&display=swap');
+
+.gallery {
+    padding: 20px 0;
+
+    .card {
+        .card-header {
+            display: flex;
+            padding: 0 15px;
+            font-family: "Kalam";
+            color: #000000;
+            font-weight: 700;
+            line-height: 24px;
+
+            .user-name {
+                font-family: "Kalam";
+                font-size: 12px;
+                font-weight: 700;
+                line-height: 14px;
+                margin-left: 10px;
+            }
+
+            .user-photo {
+                border-radius: 50%;
+            }
+        }
+
+        .description {
+            padding: 0 15px;
+            font-family: "Kalam";
+            color: #000000;
+            font-weight: 400;
+            line-height: 14px;
+            font-size: 12px;
+        }
+
+        .photo {
+            width: 100%;
+        }
+    }
+}

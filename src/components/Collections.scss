@@ -1,0 +1,96 @@
+@import url('https://fonts.googleapis.com/css2?family=Jua&family=Kalam:wght@400;700&display=swap');
+
+
+.collections {
+    display: flex;
+    flex-direction: column;
+    background-color: #F4DFCA;
+    padding: 15px;
+    overflow: auto;
+
+    h2 {
+        font-size: 14px;
+        margin: 0 0 0 10px;
+        font-family: "Kalam";
+        color: #000000;
+        font-weight: 700;
+        line-height: 24px;
+    }
+
+    ul {
+        display: flex;
+        flex-direction: row;
+        margin: 0;
+        padding: 0 10px 0 0;
+        box-sizing: content-box;
+        width: 100%;
+        flex: 1 1 0;
+
+        li {
+            list-style: none;
+            cursor: pointer;
+            font-family: "Kalam";
+            text-transform: capitalize;
+            margin: 10px;
+
+            div {
+                width: 84px;
+                height: 84px;
+                left: 15px;
+                top: 95px;
+                border-radius: 5px;
+            }
+
+            p {
+                font-family: "Kalam";
+                font-size: 12px;
+                font-weight: 400;
+                align-items: flex-end;
+                text-align: left;
+                display: flex;
+                align-items: center;
+                height: 20px;
+                margin: 0;
+                padding: 0;
+            }
+        }
+    }
+
+    .image {
+        background-size: cover;
+        width: 100px;
+        height: 100px;
+    }
+
+    .image0 {
+        background-image: url('./images/couple-ge2282af61_640 1.png');
+    }
+
+    .image1 {
+        background-image: url('./images/people-g90ddd6bf6_640 1.png');
+    }
+
+    .image2 {
+        background-image: url('./images/woman-gce70b035c_640 1.png');
+    }
+
+    .image3 {
+        background-image: url('./images/photo-1500835556837-99ac94a94552.jpg');
+    }
+
+    .image4 {
+        background-image: url('./images/photo-1518887499460-71d222eed89d.jpg');
+    }
+
+    .image5 {
+        background-image: url('./images/photo-1513519683267-4ee6761728ac.jpg');
+    }
+
+    .image6 {
+        background-image: url('./images/photo-1535585209827-a15fcdbc4c2d.jpg');
+    }
+
+    .image7 {
+        background-image: url('./images/photo-1477516561410-f0b5dd8319e4.jpg');
+    }
+}
